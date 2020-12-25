@@ -1,0 +1,1 @@
+-wto "cfb84119bf0648939638678190034f98" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "COUNTER_UD_LS190_TB_behav" "xil_defaultlib.COUNTER_UD_LS190_TB" -log "elaborate.log" 

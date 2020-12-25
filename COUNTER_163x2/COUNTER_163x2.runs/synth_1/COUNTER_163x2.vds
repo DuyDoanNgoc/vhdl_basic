@@ -1,0 +1,259 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Oct 30 12:10:01 2020
+# Process ID: 10980
+# Current directory: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.runs/synth_1
+# Command line: vivado.exe -log COUNTER_163x2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source COUNTER_163x2.tcl
+# Log file: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.runs/synth_1/COUNTER_163x2.vds
+# Journal file: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source COUNTER_163x2.tcl -notrace
+Command: synth_design -top COUNTER_163x2 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6720 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 408.492 ; gain = 96.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'COUNTER_163x2' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163x2.vhd:46]
+INFO: [Synth 8-3491] module 'COUNTER_163' declared at 'E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:36' bound to instance 'U1' of component 'COUNTER_163' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163x2.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'COUNTER_163' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:47]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER_163' (1#1) [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:47]
+INFO: [Synth 8-3491] module 'COUNTER_163' declared at 'E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:36' bound to instance 'U2' of component 'COUNTER_163' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163x2.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER_163x2' (2#1) [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163x2.vhd:46]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.219 ; gain = 150.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.219 ; gain = 150.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.219 ; gain = 150.816
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-327] inferring latch for variable 'count' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.219 ; gain = 150.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module COUNTER_163 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[3] with 1st driver pin 'U1/count_reg[3]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[3] with 2nd driver pin 'U1/count/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[2] with 1st driver pin 'U1/count_reg[2]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[2] with 2nd driver pin 'U1/count__0/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[1] with 1st driver pin 'U1/count_reg[1]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[1] with 2nd driver pin 'U1/count__1/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[0] with 1st driver pin 'U1/count_reg[0]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[0] with 2nd driver pin 'U1/count__2/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[7] with 1st driver pin 'U2/count_reg[3]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[7] with 2nd driver pin 'U2/count/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[6] with 1st driver pin 'U2/count_reg[2]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[6] with 2nd driver pin 'U2/count__0/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[5] with 1st driver pin 'U2/count_reg[1]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[5] with 2nd driver pin 'U2/count__1/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[4] with 1st driver pin 'U2/count_reg[0]/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:57]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net DATA_OUT_OBUF[4] with 2nd driver pin 'U2/count__2/Q' [E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.srcs/sources_1/new/COUNTER_163.vhd:66]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        8|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     1|
+|3     |LUT3 |     2|
+|4     |LUT4 |     3|
+|5     |LUT5 |     3|
+|6     |LUT6 |     2|
+|7     |FDRE |     8|
+|8     |LD   |     8|
+|9     |IBUF |    13|
+|10    |OBUF |     9|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |    50|
+|2     |  U1     |COUNTER_163   |    12|
+|3     |  U2     |COUNTER_163_0 |    13|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 16 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.121 ; gain = 316.719
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 2 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 733.984 ; gain = 434.266
+INFO: [Common 17-1381] The checkpoint 'E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2/COUNTER_163x2.runs/synth_1/COUNTER_163x2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file COUNTER_163x2_utilization_synth.rpt -pb COUNTER_163x2_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 733.984 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 30 12:10:40 2020...

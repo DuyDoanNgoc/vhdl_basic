@@ -1,0 +1,69 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7372
+License: Customer
+
+Current time: 	Sat Dec 26 00:55:21 ICT 2020
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 31 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ngocd
+User home directory: C:/Users/ngocd
+User working directory: E:/Tai Lieu/2020.1/VIVADO/FILE/git/COUNTER8/COUNTER8.sim/sim_1/behav/xsim
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/ngocd/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/ngocd/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/ngocd/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Tai Lieu/2020.1/VIVADO/FILE/git/COUNTER8/COUNTER8.sim/sim_1/behav/xsim/vivado.log
+Vivado journal file location: 	E:/Tai Lieu/2020.1/VIVADO/FILE/git/COUNTER8/COUNTER8.sim/sim_1/behav/xsim/vivado.jou
+Engine tmp dir: 	E:/Tai Lieu/2020.1/VIVADO/FILE/git/COUNTER8/COUNTER8.sim/sim_1/behav/xsim/.Xil/Vivado-7372-DuyDoan
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 532 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bv (ch):  Reading simulation file 'E:\Tai Lieu\2020.1\VIVADO\FILE\git\COUNTER8\COUNTER8.sim\sim_1\behav\xsim\COUNTER8_TB_behav.wdb' : addNotify
+// TclEventType: LOAD_FEATURE
+// [GUI Memory]: 57 MB (+56783kb) [00:00:15]
+// [Engine Memory]: 532 MB (+406022kb) [00:00:15]
+// Tcl Message: open_wave_database {E:\Tai Lieu\2020.1\VIVADO\FILE\git\COUNTER8\COUNTER8.sim\sim_1\behav\xsim\COUNTER8_TB_behav.wdb} 
+// Tcl Message: ERROR: [Simtcl 6-118] Unable to locate wdb file 'E:\Tai Lieu\2020.1\VIVADO\FILE\git\COUNTER8\COUNTER8.sim\sim_1\behav\xsim\COUNTER8_TB_behav.wdb' 
+// TclEventType: STOP_PROGRESS_DIALOG
+// HOptionPane Error: 'ERROR: [Simtcl 6-118] Unable to locate wdb file 'E:\Tai Lieu\2020.1\VIVADO\FILE\git\ COUNTER8\COUNTER8.sim\sim_1\behav\xsim\COUNTER8_TB_behav.wdb'  (Reading simulation file 'E:\Tai Lieu\2020.1\VIVADO\FILE\git\COUNTER8\COUNTER8.sim\sim_1\behav\xsim\COUNTER8_TB_behav.wdb')'

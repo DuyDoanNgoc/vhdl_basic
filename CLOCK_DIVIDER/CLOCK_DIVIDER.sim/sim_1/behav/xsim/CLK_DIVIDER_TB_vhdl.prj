@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CLOCK_DIVIDER.srcs/sources_1/new/CLK_DIVIDER.vhd" \
+"../../../../CLOCK_DIVIDER.srcs/sim_1/new/CLK_DIVIDER_TB.vhd" \
+
+# Do not sort compile order
+nosort

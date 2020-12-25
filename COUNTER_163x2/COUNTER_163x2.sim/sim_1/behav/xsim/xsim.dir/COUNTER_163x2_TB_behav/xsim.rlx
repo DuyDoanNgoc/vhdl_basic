@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4657550756511847322  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 383fd0719ccb4e31a1547ab505403ce5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot COUNTER_163x2_TB_behav xil_defaultlib.COUNTER_163x2_TB" , 
+    buildDate : "Apr  4 2018" , 
+    buildTime : "19:30:32" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/COUNTER_163x2_TB_behav/xsimk.exe\"   \"xsim.dir/COUNTER_163x2_TB_behav/obj/xsim_0.win64.obj\" \"xsim.dir/COUNTER_163x2_TB_behav/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2018.1\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Xilinx\\Vivado\\2018.1\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

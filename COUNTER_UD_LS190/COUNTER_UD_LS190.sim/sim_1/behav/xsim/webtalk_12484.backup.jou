@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Oct 31 17:48:04 2020
+# Process ID: 12484
+# Current directory: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_UD_LS190/COUNTER_UD_LS190.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_UD_LS190/COUNTER_UD_LS190.sim/sim_1/behav/xsim/xsim.dir/COUNTER_UD_LS190_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_UD_LS190/COUNTER_UD_LS190.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_UD_LS190/COUNTER_UD_LS190.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Tai -notrace

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DECODER_74LS138.srcs/sources_1/new/74LS138.vhd" \
+"../../../../DECODER_74LS138.srcs/sim_1/new/DECODER_LS138_TB.vhd" \
+
+# Do not sort compile order
+nosort

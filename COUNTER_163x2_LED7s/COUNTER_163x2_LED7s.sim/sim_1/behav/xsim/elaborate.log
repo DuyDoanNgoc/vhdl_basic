@@ -1,0 +1,20 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto b5c1fefd70cb4e8da5e9544a3961f186 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot COUNTER_163x2_LED7s_TB_behav xil_defaultlib.COUNTER_163x2_LED7s_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.COUNTER_163 [counter_163_default]
+Compiling architecture behavioral of entity xil_defaultlib.COUNTER_163x2 [counter_163x2_default]
+Compiling architecture behavioral of entity xil_defaultlib.LED7s [led7s_default]
+Compiling architecture behavioral of entity xil_defaultlib.COUNTER_163x2_7s_DISPLAY [counter_163x2_7s_display_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_163x2_led7s_tb
+Built simulation snapshot COUNTER_163x2_LED7s_TB_behav

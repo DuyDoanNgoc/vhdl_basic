@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2_LED7s/COUNTER_163x2_LED7s.srcs/sources_1/new/COUNTER_163.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity COUNTER_163
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2_LED7s/COUNTER_163x2_LED7s.srcs/sources_1/new/COUNTER_163x2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity COUNTER_163x2
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Tai Lieu/2020.1/VIVADO/FILE/COUNTER_163x2_LED7s/COUNTER_163x2_LED7s.srcs/sources_1/new/LED7s.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LED7s
